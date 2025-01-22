@@ -35,7 +35,7 @@ config wifi-device 'radio1'
 	option channel 'auto'
 	option htmode 'HE20'
 	option disabled '0'
-	option country 'CN'
+	option country 'US'
 	option cell_density '0'
 	option mu_beamformer '1'
 
