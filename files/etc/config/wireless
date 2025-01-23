@@ -27,6 +27,8 @@ config wifi-iface 'default_radio0'
 	option mobility_domain '6666'
 	option ft_over_ds '0'
 	option ft_psk_generate_local '1'
+	option reassociation_deadline '20000'
+	option pmk_r1_push '1'
 
 config wifi-device 'radio1'
 	option type 'mac80211'
