@@ -1,2 +1,2 @@
 0 4 * * * /etc/coremark.sh
-00 5 * * 1 sleep 5 && touch /etc/banner && reboot
+00 5 * * * sleep 5 && touch /etc/banner && reboot
